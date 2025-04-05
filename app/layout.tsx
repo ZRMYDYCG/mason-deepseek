@@ -5,9 +5,12 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'EdgeOne Pages AI: Utilize DeepSeek R1 for Free on the Edge.',
+  title: 'Mason • AI',
   description:
-    'EdgeOne Pages AI offers free access to DeepSeek R1 for enhanced edge computing capabilities.',
+    'Mason AI is a platform for building and deploying AI models.',
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
